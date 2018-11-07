@@ -4,51 +4,60 @@
     <meta charset="UTF-8">
     <title>Vincent Degove profile</title>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|Proza+Libre" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <div class="container">
-      <div class="card">
-        <img id="img-header" class="img-circle" src="images/vincent-degove.jpg">
-        <h1>Vincent Degove</h1>
-        <h2>Bike messenger, customer experience<br>(and script kiddie)</h2>
-        <p>I'm zigzaguing and hacking through life. After studies in agronomy (specializing into agro-economy), I've worked for three years as a bike messenger in Paris, got bored, joined Capitaine Train to take care of customer experience, grew into Head of Customer Services at Trainline, got bored again, and now trying to become a developer.</p>
-      </div>
+    <div id="sidebar">
+      <ul class="list-inline">
+        <li><a href="#information-card"><i class="fas fa-info-circle"></i></a></li>
+        <li><a href="#travel-card"><i class="fas fa-suitcase"></i></a></li>
+        <li><a href="#about-card"><i class="fas fa-question-circle"></i></a></li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card" id="information-card">
+          <img id="img-header" class="img-circle" src="images/vincent-degove.jpg">
+          <h1>Vincent Degove</h1>
+          <h2>Bike messenger, customer experience<br>(and script kiddie)</h2>
+          <p>I'm zigzaguing and hacking through life. After studies in agronomy (specializing into agro-economy), I've worked for three years as a bike messenger in Paris, got bored, joined Capitaine Train to take care of customer experience, grew into Head of Customer Services at Trainline, got bored again, and now trying to become a developer.</p>
+        </div>
 
-      <div class="card">
+        <div class="card">
 
-        <ul class="list-inline">
-          <li><a href="https://twitter.com/vincevlo" target="_blank"><i class="fa fa-twitter"></i></i> Twitter</a></li>
-          <li><a href="https://www.linkedin.com/in/vincent-degove-40514894/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
-        </ul>
-      </div>
+          <ul class="list-inline">
+            <li><a href="https://twitter.com/vincevlo" target="_blank"><i class="fab fa-twitter"></i></i> Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/vincent-degove-40514894/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+          </ul>
+        </div>
 
-      <div class="card">
-        <h2>My favourite travel destinations</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="images/patagonia.jpg" alt="Patagonia"></td>
-              <td>Patagonia</td>
-            </tr>
-            <tr>
-              <td><img src="images/scotland.jpg" alt="Scotland"></td>
-              <td>Scotland</td>
-            </tr>
-            <tr>
-              <td><img src="images/lisbon.jpg" alt="Lisbon"></td>
-              <td>Lisbon</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <div class="card" id="travel-card">
+          <h2>My favourite travel destinations</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="images/patagonia.jpg" alt="Patagonia"></td>
+                <td>Patagonia</td>
+              </tr>
+              <tr>
+                <td><img src="images/scotland.jpg" alt="Scotland"></td>
+                <td>Scotland</td>
+              </tr>
+              <tr>
+                <td><img src="images/lisbon.jpg" alt="Lisbon"></td>
+                <td>Lisbon</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-      <div class="card">
-        <h2>About this page</h2>
-        <p>This page was coded as part of <a href="https://www.lewagon.org" target="_blank">Le Wagon bootcamp challenge.</a></p>
+        <div class="card" id="about-card">
+          <h2>About this page</h2>
+          <p>This page was coded as part of <a href="https://www.lewagon.org" target="_blank">Le Wagon bootcamp challenge.</a></p>
+        </div>
       </div>
     </div>
   </body>

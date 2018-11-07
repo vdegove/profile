@@ -32,6 +32,22 @@ a:hover {
   color: rgb(211, 106, 72);
 }
 
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(24, 24, 24);
+  box-shadow: 0 0 0.5em rgba(10, 10, 10, 0.57);
+  }
+
+
+#page-content {
+  margin-left: 100px;
+}
+
+
 .container {
   width: 75%;
   max-width: 50em;
@@ -86,4 +102,10 @@ td + td {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+#sidebar a i {
+  font-size: 60px;
+  color: #e6e6e6;
+  padding: 10px 0;
 }
